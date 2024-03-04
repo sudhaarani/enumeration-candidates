@@ -6,4 +6,9 @@ require './filters'
 
 ## Your test code can go here
 
+# Call the method
+puts experienced?(@candidates.[] 0)
+puts find(7)
+puts qualified_candidates(@candidates)
+puts ordered_by_qualifications(@candidates)
 pp @candidates
